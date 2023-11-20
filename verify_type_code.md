@@ -2,6 +2,7 @@
 
 **Example**:
 > **Question:** Suppose that the minimum value of $f(x) = \cos 2x - 2a (1 + \cos x)$ is $-\frac{1}{2}.$  Find $a.$
+>
 > 
 **Solution:**
 ......
@@ -25,7 +26,8 @@ f_min = np.min(f_values)
 2. **Alternative Method**. The model uses a different method to solve the problem and check if it reaches the same final answer.
 
 **Example**:
-> **Question:** What is the value of the following expression: $100 - 99 +98 - 97 + 96 - 95 + \cdots + 4 - 3 +2 - 1$?$
+> **Question:** What is the value of the following expression: $100 - 99 +98 - 97 + 96 - 95 + \cdots + 4 - 3 +2 - 1$?
+>
 > 
 **Solution:**
 ......
@@ -48,7 +50,8 @@ total_check
 3. **Double Checking**. The model double-checks each part of the solution to see if they are correct.
 
 **Example**:
-> **Question:** What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \cdots + 80$?$
+> **Question:** What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \cdots + 80$?
+>
 > 
 **Solution:**
 ......
@@ -81,6 +84,7 @@ These four types mostly summarized the types of verification code used.
 **Example**:
 > **Question:** What is the value of $\sum_{n=1}^\infty  (\tan^{-1}\sqrt{n}-\tan^{-1}\sqrt{n+1})$?
 Your answer should be in radians.
+>
 > 
 **Solution:**
 ......
