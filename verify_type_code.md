@@ -2,6 +2,7 @@
 
 **Example**:
 > **Question:** Suppose that the minimum value of $f(x) = \cos 2x - 2a (1 + \cos x)$ is $-\frac{1}{2}.$  Find $a.$
+> 
 **Solution:**
 ......
 Next, we will verify this solution by substituting $ a = -0.25 $ into the function $ f(x) $, and checking whether the minimum value of $ f(x) $ is indeed $ -\frac{1}{2} $. We will evaluate $ f(x) $ over the interval $ [0, 2\pi] $ because the function is periodic with period $ 2\pi $.
@@ -25,6 +26,7 @@ f_min = np.min(f_values)
 
 **Example**:
 > **Question:** What is the value of the following expression: $100 - 99 +98 - 97 + 96 - 95 + \cdots + 4 - 3 +2 - 1$?$
+> 
 **Solution:**
 ......
 Now, let's verify this result by actually computing the expression term by term. We'll create a list of numbers from 100 down to 1, then add the even-indexed numbers and subtract the odd-indexed numbers.
@@ -47,6 +49,7 @@ total_check
 
 **Example**:
 > **Question:** What is the greatest prime factor of the sum of the arithmetic sequence $1 + 2 + 3 + \cdots + 80$?$
+> 
 **Solution:**
 ......
 Now, let's verify the solution.
@@ -78,6 +81,7 @@ These four types mostly summarized the types of verification code used.
 **Example**:
 > **Question:** What is the value of $\sum_{n=1}^\infty  (\tan^{-1}\sqrt{n}-\tan^{-1}\sqrt{n+1})$?
 Your answer should be in radians.
+> 
 **Solution:**
 ......
 Now, let's verify the solution. We can do this by calculating the sum of the first few terms of the series and see if it is close to our solution. Note that the series is infinite, so we can't compute the exact value in this way, but we can check if it seems to be converging towards our solution. Let's calculate the sum of the first 10,000 terms.
