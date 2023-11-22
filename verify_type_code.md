@@ -1,3 +1,5 @@
+![distribution](./verify_type_pie.png)
+
 1. **Substitution**. The model substitutes the answer back to the question to check if it fits all the conditions. By inspecting the solutions we randomly sampled from the results, we found that this is the most common type of verification.
 
 **Example**:
